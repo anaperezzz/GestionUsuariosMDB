@@ -7,7 +7,7 @@ namespace GestionUsuarios
 {
     internal class DBConnection
     {
-        private string ConnectionString = "Data Source=3375898HP;Initial Catalog=GestionUsuarios;User ID=sa;Password=123456;Encrypt=True;TrustServerCertificate=True;";
+        private string ConnectionString = "Data Source=tuservidor;Initial Catalog=GestionUsuarios;User ID=sa;Password=tupasword;Encrypt=True;TrustServerCertificate=True;";
 
         public SqlConnection ObtenerConexion()
         {
