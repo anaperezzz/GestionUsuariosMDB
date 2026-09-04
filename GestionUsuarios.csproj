@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="imgs\editar.png" />
+    <None Remove="imgs\eliminar.png" />
+    <None Remove="imgs\guardar.png" />
+    <None Remove="imgs\nuevo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imgs\editar.png" />
+    <Resource Include="imgs\eliminar.png" />
+    <Resource Include="imgs\guardar.png" />
+    <Resource Include="imgs\nuevo.png" />
+  </ItemGroup>
+
+</Project>
