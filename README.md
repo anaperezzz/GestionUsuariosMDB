@@ -51,6 +51,8 @@ Aspectos técnicos destacados:
     │   ├── editar.png
     │   ├── eliminar.png
     │   └── guardar.png
+    ├── QueryBD
+    │   ├── GestionUsuarios.sql
     ├── App.xaml
     ├── AssemblyInfo.cs
     ├── DBConnection.cs
